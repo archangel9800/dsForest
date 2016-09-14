@@ -22,6 +22,13 @@
             @media (max-width: 992px)  { 
                  height: 55%;
              }
+            
+            
+            
+            
+            
+            
+            
             .language{
                 position: absolute;
                 height: 15%;
@@ -33,40 +40,45 @@
                              height: 20%;
                          }
                        
-                       
-                .languages{
-                    overflow: hidden;
-                    cursor: pointer;
+                .fixed-action-btn{
+                    position: static;
                     float: right;
-                    height: 100%;
-                    border-radius: 10000px;
-                    margin-left: 10px;
-                    -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
-                    -moz-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
-                    box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
-                        &:hover{
+                    .active{  
+                               color: #f18d45; 
+                        }
+                    ul{
+                        @media (max-width: 992px)  {
+                             right: 45px; 
+                         }
+                        li{
+                            margin: 0;
+                            margin-left: 5px;
+                        }
+                        }
+                    span{
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .btn-floating{
+                        -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+                        -moz-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+                        box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+                        i{
+                            color: #f18d45;
+                        }
+                        
+                         &:hover{
                             -webkit-box-shadow: 0px 0px 0px 2px rgba(241,141,69,1);
                             -moz-box-shadow: 0px 0px 0px 2px rgba(241,141,69,1);
                             box-shadow: 0px 0px 0px 2px rgba(241,141,69,1);
-                        }
-                    div{
-                       background-color: black;
-                       height: 100%;
-                       width: 100%;
-                       border-radius: 10000px;
-                        span{
-                            color: white;
-                            display: block;
-                            width: 100%;
-                            text-align: center;
-                            font-weight: 500;
-                        }
+                         }
                     }
-                     .active{  
-                               color: #f18d45; 
-                        }
-                    
-                }
+                }     
+                
+                
+                
+                
                 
             }
             .img_box{

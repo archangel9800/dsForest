@@ -96,29 +96,41 @@ function forBlock1(){
 //    не соединять!!
         
         
-     $("#block1 .line1 .logo_block .languages").css({
-        height:  "100%",
-        width: $("#block1 .line1 .logo_block .languages").height() + "px",
-    });
-   
         
-     $("#block1 .line1 .logo_block .language span").css({
-        fontSize: $("#block1 .line1 .logo_block .languages").height()/1.7 + "px",
-    });    
-       $("#block1 .line1 .logo_block .languages span").css({
-        paddingTop: $("#block1 .line1 .logo_block .languages").height()/2 - $("#block1 .line1 .logo_block span").height()/2 + "px", 
-    });   
         
-        $("#block1 .line1 .logo_block .language").click( function(event){
-           
-            
-            if(event.target.nodeName = "span"){
-            $("#block1 .line1 .logo_block .languages span").removeClass("active");
+       
+        
+        $("#block1 .line1 .logo_block .language .btn-floating").click( function(event){
+            if(event.target.nodeName == "SPAN"){
+            $("#block1 .line1 .logo_block .fixed-action-btn ul span").removeClass("active");
             $(event.target).addClass("active");
             };
         });
-    
-    
+        
+        
+        
+      
+        
+        
+        
+        if($('#block1').width() > 992){
+            $('#block1 .for_btn').removeClass("btn").addClass("btn-large"); 
+            
+        }else if($('#block1').width() <= 992){
+            $('#block1 .for_btn').removeClass("btn-large").addClass("btn"); 
+              
+        };
+        
+   
+        
+        
+          $("#block1 .line1 .logo_block .language span").css({
+        fontSize: $("#block1 .line1 .logo_block .language .fixed-action-btn").height()/1.7 + "px",
+    });    
+        
+        
+        
+        
     $("#block1 .line2 .chose p").css({
         marginTop: $("#block1 .line2 .chose").height()/2 - $("#block1 .line2 .chose p").height()/2 + "px",
     });
