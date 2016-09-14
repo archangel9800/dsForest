@@ -20,7 +20,9 @@ forBlock1();
 $(window).resize( forBlock1 );
     
     
-    
+forBlock2();
+$(window).resize( forBlock2 );
+        
     
     
 });
