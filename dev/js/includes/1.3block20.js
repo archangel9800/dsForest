@@ -95,7 +95,7 @@ function forBlock20(){
         
         
   $("#block20 .line2 p").css({
-      marginTop: $("#block20 .line2").height()/2 - $("#block2 .line2 p").height()/2 + "px",
+      marginTop: $("#block20 .line2").height()/2 - $("#block20 .line2 p").height()/2 + "px",
     });        
         
 

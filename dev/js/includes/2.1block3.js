@@ -9,7 +9,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/24 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/10 + "px", 
+       fontSize: $('#block3').width()/23 + "px", 
     });  
    };  
     
@@ -21,7 +21,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/25 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/10 + "px", 
+       fontSize: $('#block3').width()/23 + "px", 
     });  
    };  
     
@@ -33,7 +33,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/30 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/10 + "px", 
+       fontSize: $('#block3').width()/25 + "px", 
     }); 
    }; 
     
@@ -45,7 +45,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/30 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/15 + "px", 
+       fontSize: $('#block3').width()/25 + "px", 
     }); 
      };
     
@@ -57,7 +57,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/30 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/15 + "px", 
+       fontSize: $('#block3').width()/30 + "px", 
     }); 
      };
     
@@ -69,7 +69,7 @@ function forBlock3(){
        fontSize: $('#block3').width()/30 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/15 + "px", 
+       fontSize: $('#block3').width()/30 + "px", 
     }); 
    }; 
     if ( $('#block3').width() > 992 ){
@@ -80,13 +80,18 @@ function forBlock3(){
        fontSize: $('#block3').width()/40 + "px", 
     }); 
         $("#block3 .very_large_font").css({
-       fontSize: $('#block3').width()/20 + "px", 
+       fontSize: $('#block3').width()/30 + "px", 
     }); 
    }; 
     
         
         
+    
         
+        
+  $("#block3 .line2 p").css({
+      marginTop: $("#block3 .line2").height()/2 - $("#block3 .line2 p").height()/2 + "px",
+    });           
         
 
         
