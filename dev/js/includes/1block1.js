@@ -8,7 +8,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     });  
    };  
@@ -20,7 +20,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     });  
    };  
@@ -32,7 +32,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/25 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
    }; 
@@ -44,7 +44,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/39 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
      };
@@ -56,7 +56,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/39 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
      };
@@ -68,7 +68,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/39 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
    }; 
@@ -79,7 +79,7 @@ function forBlock1(){
          $("#block1 .large_font").css({
        fontSize: $('#block1').width()/40 + "px", 
     }); 
-        $("#block1 .wery_large_font").css({
+        $("#block1 .very_large_font").css({
        fontSize: $('#block1').width()/20 + "px", 
     }); 
    }; 

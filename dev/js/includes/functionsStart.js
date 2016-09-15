@@ -23,6 +23,7 @@ $(window).resize( forBlock1 );
 forBlock2();
 $(window).resize( forBlock2 );
         
-    
+forBlock3();
+$(window).resize( forBlock3 );    
     
 });

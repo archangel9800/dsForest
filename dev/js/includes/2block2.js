@@ -8,7 +8,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/15 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/10 + "px", 
     });  
    };  
@@ -20,7 +20,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/25 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/10 + "px", 
     });  
    };  
@@ -32,7 +32,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/30 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/10 + "px", 
     }); 
    }; 
@@ -44,7 +44,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/30 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/15 + "px", 
     }); 
      };
@@ -56,7 +56,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/30 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/15 + "px", 
     }); 
      };
@@ -68,7 +68,7 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/45 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/15 + "px", 
     }); 
    }; 
@@ -79,13 +79,17 @@ function forBlock2(){
          $("#block2 .large_font").css({
        fontSize: $('#block2').width()/60 + "px", 
     }); 
-        $("#block2 .wery_large_font").css({
+        $("#block2 .very_large_font").css({
        fontSize: $('#block2').width()/20 + "px", 
     }); 
    }; 
     
         
+
+
         
+        
+      
         
         
         
@@ -115,7 +119,9 @@ function forBlock2(){
     };     
         
          
-         
+       $("#block2 .line2 p").css({
+      fontSize: $("#block2 .line2").height()/1.5 + "px",
+    });   
          
          
          
@@ -140,7 +146,9 @@ function forBlock2(){
          display: "block",
     });        
          
-         
+        $("#block2 .line2 p").css({
+      fontSize: $("#block2 .line2").height()/1.6 + "px",
+    });  
          
          
          
@@ -164,7 +172,9 @@ function forBlock2(){
     });             
          
          
-         
+       $("#block2 .line2 p").css({
+      fontSize: $("#block2 .line2").height()/2 + "px",
+    });    
          
          
          
@@ -189,7 +199,9 @@ function forBlock2(){
         
         
         
-        
+       $("#block2 .line2 p").css({
+      marginTop: $("#block2 .line2").height()/2 - $("#block2 .line2 p").height()/2 + "px",
+    });    
         
         
         
