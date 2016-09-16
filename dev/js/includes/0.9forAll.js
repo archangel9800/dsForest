@@ -6,22 +6,52 @@ function setHeight() {
     });
 }
 
-////Определяет высоту паддинги окон adaptation-window_andPaddings(section) и определяет высоту и ширину окон adaptive-container-wrap
-//function setHeightAndPadding() {
-//    $('.adaptation-window_andPaddings').css({
-//        height: $(window).height() - 64 + 'px',
-//        paddingTop: $('.adaptation-window_andPaddings').height()/20 + 'px',
-//        paddingLeft: $(window).width()/29 + 'px',
-//    });
-//     $('.adaptive-container-wrap').css({ 
-//        height: $('.adaptation-window_andPaddings').height()/1.06 + 'px',
-//        width: $('.adaptation-window_andPaddings').width()/1.04 + 'px'
-//    });
-//};
-//
-//setHeightAndPadding(); 
-//$(window).resize( setHeightAndPadding );
-//setHeightAndPadding(); 
 
 
+//для языка
+function forLan(){ 
+ if($('section').width() > 2000){
+            $('section .for_btn').removeClass("btn").addClass("btn-large"); 
+            
+        }else if($('section').width() <= 2000){
+            $('section .for_btn').removeClass("btn-large").addClass("btn"); 
+            
+        };
 
+    $(".forLanOpt .line1 .language").css({
+       right:  $(".forLanOpt .line1 img").width() * 1.3 + "px",
+       marginTop: "5px",
+    });
+    
+    
+    
+    
+        $("section .line1 .language").click( function(event){
+            if(event.target.nodeName == "SPAN"){ 
+            $(event.target.parentNode.parentNode.parentNode).find("span").removeClass("active");
+            $(event.target).addClass("active");
+            var info = $(event.target.parentNode.parentNode.parentNode).html();
+            $('section .line1 .language ul').empty().prepend(info); 
+            
+            };
+            
+        });
+   
+        
+          $("section .line1 .language span").css({
+        fontSize: $("section .line1 .language .fixed-action-btn").height()/1.7 + "px",
+    });    
+ 
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    } 

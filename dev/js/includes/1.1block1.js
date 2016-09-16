@@ -99,34 +99,7 @@ function forBlock1(){
         
         
        
-        
-        $("#block1 .line1 .logo_block .language .btn-floating").click( function(event){
-            if(event.target.nodeName == "SPAN"){
-            $("#block1 .line1 .logo_block .fixed-action-btn ul span").removeClass("active");
-            $(event.target).addClass("active");
-            };
-        });
-        
-        
-        
       
-        
-        
-        
-        if($('#block1').width() > 992){
-            $('#block1 .for_btn').removeClass("btn").addClass("btn-large"); 
-            
-        }else if($('#block1').width() <= 992){
-            $('#block1 .for_btn').removeClass("btn-large").addClass("btn"); 
-              
-        };
-        
-   
-        
-        
-          $("#block1 .line1 .logo_block .language span").css({
-        fontSize: $("#block1 .line1 .logo_block .language .fixed-action-btn").height()/1.7 + "px",
-    });    
         
         
         
