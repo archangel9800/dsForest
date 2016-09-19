@@ -2,8 +2,20 @@
 
 @charset "UTF-8";
 
-    
-@import "my_style_components/block1.scss";
+@import "my_style_components/swiper.scss";
+
+
+@import "my_style_components/multiLevelMenuComponent.scss";
+
+
+@import "my_style_components/3.1blockCatalog.scss";
+@import "my_style_components/0.1forBody.scss";
+@import "my_style_components/1.1block1.scss";
+@import "my_style_components/1.2block2.scss";
+@import "my_style_components/1.3block20.scss";
+
+@import "my_style_components/2.1block3.scss";
+@import "my_style_components/2.2block4.scss";
 
 @import "my_style_components/header.scss";
 
