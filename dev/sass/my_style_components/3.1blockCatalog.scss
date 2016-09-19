@@ -1,4 +1,4 @@
-#block3{
+#blockCatalog{
     overflow: hidden;
     
     div{
@@ -53,7 +53,8 @@
                         color: white;
                         width: 100%;
                         text-align: center;
-                        line-height: 20px;text-decoration: none;
+                        line-height: 20px;
+                        text-decoration: none;
                     }
                 }
         
@@ -98,6 +99,8 @@
                 ul{
                     background-color: black;
                     a{
+//                        white-space: nowrap;
+//                        width: auto;
                         border-bottom: 1px solid white;
                         padding: 15px 20px;
                         @media (max-width: 1500px)  {
@@ -203,59 +206,87 @@
         @media (max-width: 600px)  {
                               height: 68%;
                          }
-        .swiper-container{
-            width: 100%;
+        .category_list{
+            float: left;
+            width: 30%;
             height: 100%;
+            @media (max-width: 768px)  {
+                              width: 50%;
+                         }
+            .collection{
+                width: 95%;
+                border: none;
+                a{
+                    color: black;
+                    font-weight: 500;
+                    &:last-child{
+                        border-bottom: 1px solid #e0e0e0;
+                    }
+                    &:hover{
+                       border-bottom: 1px solid #f18d45;
+                    }
+                }
+            }
+        }
+        .swiper-container{
+            float: right;
+            width: 70%;
+            height: 100%;
+            @media (max-width: 768px)  {
+                              width: 50%;
+                         }
             .swiper-wrapper{
                 width: 100%;
                 height: 100%;
-                .swiper-slide{
-                    width: 25%;
-                    height: 100%;
-                    .product_block{
-                        height: 100%;
-                        .prod_id{
-                            height: 10%; 
-                            margin: 0;
-                            background-color: #fffed2;
-                               text-align: center;
-                        }
-                        .prod_id_border{
-                            border-right: 2px solid #b3b4af;
-                        }
-                        .prod_id_height{
-                            height: 30%;
-                            padding: 0% 10% 0% 10%;
-//                            background-size: cover;
-//                            background-repeat: no-repeat;
-//                            background-position: center;
-                        }
-                        .prod_id_img_box1{
-                                .prod_id_img1{
-                                 width: 100%;
-                                 height: auto;
-
-                                }
-                        }
-                        .prod_id_img_box2{
-                                .prod_id_img2{
-                                width: 100%;
-                                 height: auto;
-
-                                }
-                        }
-                        .prod_id_img_box3{
-                                .prod_id_img2{
-                                 width: 100%;
-                                 height: auto;
-                                -webkit-box-shadow: 10px 10px 50px 4px rgba(0,0,0,0.46);
-                                -moz-box-shadow: 10px 10px 50px 4px rgba(0,0,0,0.46);
-                                box-shadow: 10px 10px 50px 4px rgba(0,0,0,0.46);
-                                }
-                        }
-                    }
-                    
+                .catalog_block{
+            .text_cat{
+                height: 45%;
+                padding: 0;
+                padding: 5% 5% 5% 5%;
+                background-color: black;
+                p{
+                    color: white;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
                 }
+            }
+            .img_box{
+                height: 55%;
+                padding: 0 4px 0 4px;
+            }
+            .img_cat{
+                height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .img1{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img2{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img3{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img4{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img5{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img6{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img7{
+                background-image: url(../img/catalog_img.png);
+            }
+            .img8{
+                background-image: url(../img/catalog_img.png);
+            }
+            
+        }
             }
         }
         

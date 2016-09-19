@@ -18,15 +18,15 @@ $(window).resize( forBlock2 );
     
 forBlock3();
 $(window).resize( forBlock3 );    
-        
+ 
+forBlock4();
+$(window).resize( forBlock4 );     
+    
 forBlock20();
 $(window).resize( forBlock20 );    
-    
-    
-    
-    
-    
-    
+ 
+forblockCatalog();
+$(window).resize( forblockCatalog );    
     
     
 forLan();

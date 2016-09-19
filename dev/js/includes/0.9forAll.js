@@ -1,3 +1,12 @@
+//прелоадер
+$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+})
+
+
 //Определяет высоту блоков adaptation-window
 function setHeight() {
     $('.adaptation-window').css({
@@ -17,12 +26,30 @@ function forLan(){
             $('section .for_btn').removeClass("btn-large").addClass("btn"); 
             
         };
-
+ if($('section').width() > 400){
     $(".forLanOpt .line1 .language").css({
-       right:  $(".forLanOpt .line1 img").width() * 1.3 + "px",
+      right:  $(".forLanOpt .line1 img").width() * 1.25 + "px",
        marginTop: "5px",
     });
-    
+     $(".forLanOpt .line1  .img_box img").css({
+      right:  15 + "px",
+    });
+     
+     
+     
+ }else if($('section').width() <= 400){
+     
+     $(".forLanOpt .line1 .language").css({
+      right:  $(".forLanOpt .line1 img").width() * 1.07 + "px",
+       marginTop: "5px",
+    });
+     $(".forLanOpt .line1 img").css({
+      right:  5 + "px",
+    });
+     
+     
+     
+ }
     
     
     
@@ -45,7 +72,7 @@ function forLan(){
 
     
     
-    
+
     
 
     

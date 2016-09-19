@@ -108,7 +108,7 @@ function forBlock2(){
         
      if ( $('#block2').width() > 768 ){
          
-    if($("#block2 .catalog_block").length < 9){
+      if($("#block2 .catalog_block").length <= 8){
         $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
          display: "none",
     });   
@@ -116,7 +116,7 @@ function forBlock2(){
          $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
          display: "block",
     });   
-    };     
+    };   
         
          
        $("#block2 .line2 p").css({
@@ -142,15 +142,22 @@ function forBlock2(){
          
        
          
-       $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
-         display: "block",
-    });        
          
+         
+      
         $("#block2 .line2 p").css({
       fontSize: $("#block2 .line2").height()/1.6 + "px",
     });  
          
-         
+      if($("#block2 .catalog_block").length <= 4){
+        $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
+         display: "none",
+    });   
+    } else if($("#block2 .catalog_block").length >= 5) {
+         $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
+         display: "block",
+    });   
+    };      
          
          
      var swiper = new Swiper('#block2 .swiper-container', {
@@ -166,10 +173,9 @@ function forBlock2(){
          
      }else  if ( $('#block2').width() <= 400 ){
          
+           
          
-     $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
-         display: "block",
-    });             
+               
          
          
        $("#block2 .line2 p").css({
@@ -177,7 +183,15 @@ function forBlock2(){
     });    
          
          
-         
+     if($("#block2 .catalog_block").length <= 2){
+        $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
+         display: "none",
+    });   
+    } else if($("#block2 .catalog_block").length >= 3) {
+         $("#block2 .line3 .swiper-pagination, #block2 .line3 .swiper-button-next, #block2 .line3 .swiper-button-prev").css({
+         display: "block",
+    });   
+    };    
          
          
          
