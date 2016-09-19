@@ -85,6 +85,7 @@ function forBlock1(){
    }; 
     
     
+        
 //    не соединять!!
     $("#block1 .line1 .logo_block img").css({
         width: $("#block1 .img_box").width()/100*55 + "px",
