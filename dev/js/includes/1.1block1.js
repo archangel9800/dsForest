@@ -80,7 +80,7 @@ function forBlock1(){
        fontSize: $('#block1').width()/40 + "px", 
     }); 
         $("#block1 .very_large_font").css({
-       fontSize: $('#block1').width()/20 + "px", 
+       fontSize: $('#block1').width()/25 + "px", 
     }); 
    }; 
     
